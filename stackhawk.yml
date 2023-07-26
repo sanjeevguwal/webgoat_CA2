@@ -1,13 +1,11 @@
-# -- stackhawk configuration for Webgoat --
+# -- stackhawk configuration for webgoat_CA2 --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 6cbf7784-5911-41c2-b721-3efa40412126 # (required)
+  applicationId: 06ce4f23-e18e-49e0-b7eb-f1cf3b23d12e # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
-  env: Development # (required)
+  env: Production # (required)
   # -- The url of your application to scan --
   host: http://localhost:3000 # (required)
-hawk:
-  failureThreshold: high
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
